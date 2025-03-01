@@ -11,5 +11,7 @@
 <body class="homepage1-body">
     <?php
     get_template_part('partials/header_section');
-    get_template_part('partials/breadcrumb');
+    if (!is_front_page()) {
+        get_template_part('partials/breadcrumb');
+    }
     ?>
