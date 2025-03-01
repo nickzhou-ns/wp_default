@@ -1,5 +1,6 @@
 <?php
-define('DB_NAME', 'xxx');
+$project_name = "xxx";
+define('DB_NAME', $project_name);
 
 define('DB_USER', 'root');
 
@@ -11,4 +12,5 @@ define('DB_CHARSET', 'utf8');
 
 define('DB_COLLATE', '');
 define('FS_METHOD', 'direct');
-$table_prefix = 'seoc_1_';
+
+$table_prefix = $project_name . '_';
