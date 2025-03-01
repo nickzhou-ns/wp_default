@@ -8,7 +8,7 @@
             <div class="header-elements">
               <div class="site-logo">
                 <a href="<?= esc_url(home_url('/')); ?>">
-                  <img src="<?= get_template_directory_uri(); ?>/assets_ext/img/nihao_logo.png" alt="Logo">
+                  <img src="<?= get_template_directory_uri(); ?>/assets/img/logo/logo1.png" alt="Logo">
                 </a>
               </div>
               <div class="main-menu">
@@ -96,7 +96,7 @@
               <i class="fa-solid fa-phone-volume"></i>
             </div>
             <div class="contact-info-text">
-              <a href="tel:<?= $company_info['phone'] ?>"><?= $company_info['phone'] ?></a>
+              <a href="tel:<? // = $company_info['phone'] ?>"><? // = $company_info['phone'] ?></a>
             </div>
           </div>
 
@@ -105,7 +105,7 @@
               <i class="fa-solid fa-envelope"></i>
             </div>
             <div class="contact-info-text">
-              <a href="mailto:<?= $company_info['email'] ?>"><?= $company_info['email'] ?>m</a>
+              <a href="mailto:<? // = $company_info['email'] ?>"><? // = $company_info['email'] ?>m</a>
             </div>
           </div>
 
@@ -116,7 +116,7 @@
                 <i class="fa-solid fa-location-dot"></i>
               </div>
               <div class="contact-info-text">
-                <a href="#"><?= $company_info['address'] ?></a>
+                <a href="#"><?// = $company_info['address'] ?></a>
               </div>
             </div>
           </div>

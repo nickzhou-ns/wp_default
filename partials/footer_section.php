@@ -24,7 +24,7 @@
     <div class="row">
       <div class="col-lg-3 col-md-6">
         <div class="footer-logo-area">
-          <img src="<?= get_template_directory_uri() ?>/assets_ext/img/nihao_logo.png" alt="">
+          <img src="<?= get_template_directory_uri() ?>/assets/img/logo/logo1.png" alt="">
           <p>We are a Perth-based SEO and marketing agency, specializing in transforming online presence with expert SEO and digital marketing strategies.</p>
         </div>
       </div>

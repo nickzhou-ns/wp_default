@@ -1,4 +1,6 @@
-<?php get_header(); ?>
+<?php
+get_header();
+?>
 <div class="blog1-scetion-area sp1 bg2">
     <div class="container">
         <div class="row">
